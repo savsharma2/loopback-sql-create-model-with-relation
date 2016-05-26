@@ -1,0 +1,14 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "sqlserver": {
+    "host": "YourHostName",
+    "database": "YourDatabaseName",
+    "username": "YourUserName",
+    "password": "YourPassword",
+    "name": "YourDatabase",
+    "connector": "mssql"
+  }
+}
