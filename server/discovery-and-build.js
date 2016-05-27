@@ -88,7 +88,7 @@ function discoverApi(app) {
     if (tableSchemas && tableSchemas instanceof Array) {
       tableSchemas.forEach(function(schema) {
         if (schema.fileName) {
-          if (!fs.existsSync(fileName)) {
+          if (fileName && !fs.existsSync(fileName)) {
             fs.mkdirSync(fileName);
           }
           fs.writeFileSync(schema.fileName, JSON.stringify(schema));

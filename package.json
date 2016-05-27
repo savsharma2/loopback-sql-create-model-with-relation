@@ -11,8 +11,6 @@
   "dependencies": {
     "cors": "^2.5.2",
     "extend": "^3.0.0",
-    "grunt": "^1.0.1",
-    "grunt-contrib-watch": "^1.0.0",
     "helmet": "^0.14.0",
     "loopback": "^2.22.0",
     "loopback-boot": "^2.6.5",
