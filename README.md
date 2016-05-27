@@ -8,15 +8,30 @@ to create models with [belongsTo](https://docs.strongloop.com/display/public/LB/
 
 ```
 $ npm install
+
 ```
+
+
+## Change in Data Sources
+file :- server/datasources.json
+```
+"sqlserver": {
+  "host": "YourHostName",
+  "database": "YourDatabaseName",
+  "username": "YourUserName",
+  "password": "YourPassword",
+  "name": "sqlserver",
+  "connector": "mssql"
+}
+
+```
+
 
 ## Change in loopback discovery api
 
 Problem statement can be viewed here (<http://stackoverflow.com/questions/37408747/strongloop-database-discovery-api-for-sql-server-giving-same-table-name-for-prim>).
 
-```
 file :- node_modules/loopback-connector-mssql\lib\discovery.js
-```
 
 ```javascript
 /*!
