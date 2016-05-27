@@ -33,4 +33,5 @@
     "type": "",
     "url": ""
   },
+  "description": "loopback project for creating models using sql server with one to one and one to many relationship"
 }
