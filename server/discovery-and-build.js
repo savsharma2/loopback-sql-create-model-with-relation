@@ -10,10 +10,10 @@ function discoverApi(app) {
     extend = require('extend'),
     results,
     file = fs.readFileSync('server/model-config.json'),
-    pluralize = require('pluralize'),
     lingo = require('lingo'),
     tableSchemas, mysqlSource = require('./datasources.json'),
     DataSource = require('loopback-datasource-juggler').DataSource,
+    //sqlserver name of mssql connector config name in datasources.json
     dataSource = new DataSource('mssql', mysqlSource.sqlserver),
     modelConfig = JSON.parse(file.toString()),
     s = require('string'),

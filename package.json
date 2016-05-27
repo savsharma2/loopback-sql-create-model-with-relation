@@ -1,5 +1,5 @@
 {
-  "name": "sample",
+  "name": "loopback-sql-create-model",
   "version": "1.0.0",
   "main": "server/server.js",
   "scripts": {
@@ -27,12 +27,10 @@
     "compression": "^1.0.3",
     "jshint": "^2.5.6",
     "lingo": "0.0.5",
-    "nsp": "^2.1.0",
-    "pluralize": "^2.0.0"
+    "nsp": "^2.1.0"
   },
   "repository": {
     "type": "",
     "url": ""
   },
-  "description": "sample"
 }

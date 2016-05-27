@@ -8,7 +8,7 @@
     "database": "YourDatabaseName",
     "username": "YourUserName",
     "password": "YourPassword",
-    "name": "YourDatabase",
+    "name": "sqlserver",
     "connector": "mssql"
   }
 }
