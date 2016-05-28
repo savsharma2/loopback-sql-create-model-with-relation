@@ -31,5 +31,6 @@
     "type": "",
     "url": ""
   },
-  "description": "loopback project for creating models using sql server with one to one and one to many relationship"
+  "description": "loopback project for creating models using sql server with one to one and one to many relationship",
+  "homepage": "https://github.com/savsharma2/loopback-sql-create-model-with-relation"
 }
